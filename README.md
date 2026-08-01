@@ -10,7 +10,7 @@ https://app.powerbi.com/view?r=eyJrIjoiODY1YjJlZGItMmUwNy00OTU4LWI5MjgtZjRmMDYwY
 * **Procesamiento de Datos:** Databricks, PySpark, Spark SQL, Python
 * **Arquitectura de Datos:** Medallion (Bronze ➡️ Silver ➡️ Gold)
 * **Visualización y BI:** Power BI, DAX, DirectQuery
-* **Control de Versiones:** Git & GitHub
+* **Control de Versiones:** GitHub
 
 ---
 
