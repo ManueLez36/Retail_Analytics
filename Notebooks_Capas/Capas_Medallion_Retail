@@ -1,0 +1,4 @@
+%sql
+CREATE SCHEMA retail.01_bronze; 
+CREATE SCHEMA retail.02_silver; 
+CREATE SCHEMA retail.03_gold;
