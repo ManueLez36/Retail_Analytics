@@ -2,7 +2,7 @@
 
 Proyecto End-to-End de ingeniería y análisis de datos enfocado en el sector retail. La solución procesa datos transaccionales masivos mediante una arquitectura Medallion en Databricks y los expone a través de un modelo interactivo en Power BI para la toma de decisiones comerciales.
 
-https://app.powerbi.com/view?r=eyJrIjoiODY1YjJlZGItMmUwNy00OTU4LWI5MjgtZjRmMDYwY2IxNjBhIiwidCI6IjBlMGNiMDYwLTA5YWQtNDlmNS1hMDA1LTY4YjliNDlhYTFmNiIsImMiOjR9
+https://app.powerbi.com/view?r=eyJrIjoiM2NhMDcxZWYtMTU0NC00MGE4LWIwZWYtZmQwNDY0Zjk2ODZiIiwidCI6IjBlMGNiMDYwLTA5YWQtNDlmNS1hMDA1LTY4YjliNDlhYTFmNiIsImMiOjR9
 
 ---
 
@@ -21,9 +21,12 @@ https://app.powerbi.com/view?r=eyJrIjoiODY1YjJlZGItMmUwNy00OTU4LWI5MjgtZjRmMDYwY
 * Almacenamiento de los datos en formato crudo para mantener una auditoría y respaldo fiel de las fuentes de origen.
 
 ### 2. Limpieza y Transformación (Capa Silver)
-* Desarrollo de scripts en **PySpark** para eliminar registros nulos en columnas esenciales (`CodTicket`, `ID_Cliente`, `VTABS`).
-* **Tratamiento de Anomalías:** Detección e imputación de 393 registros nulos en la columna `Dia` correspondientes al 29/02/2021 antes de la conversión de formato.
+* Identificación de 5 valores nulos en el campo 'EstCivil' en la tabla 'Clientes'. Se procedió a eliminar estos registros. 
+* Desarrollo de scripts en **PySpark** para eliminar 3 campos (`Mes`, `Dia`, `Marca`).
+**Tratamiento de Anomalías:**
+* Identificación de valor negativos en el campo 'VTABS'  
 * Estandarización y renombrado de categorías de productos (`SKU`, `Producto`, `Descripción`, `Tipo`).
+* Conversión de valores negativos a positivos en métricas financieras (`VTABS`, `Margen`, `VTAQ`).
 
 ### 3. Modelado y Capa Gold
 * Consolidación y estructuración final de las tablas de hechos y dimensiones en Databricks, dejándolas optimizadas y listas para el consumo analítico mediante consultas eficientes.
