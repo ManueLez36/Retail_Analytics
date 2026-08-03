@@ -42,8 +42,7 @@ https://app.powerbi.com/view?r=eyJrIjoiM2NhMDcxZWYtMTU0NC00MGE4LWIwZWYtZmQwNDY0Z
 * **Publicación y Difusión:** Despliegue del reporte final en Power BI Service con la opción de acceso público mediante enlace web interactivo.
 ---
 
-## 📊 Vista Previa del Dashboard
-![Dashboard Retail Analytics](retail.png)
+
 
 
 
