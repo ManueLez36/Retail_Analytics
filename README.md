@@ -23,7 +23,7 @@ https://app.powerbi.com/view?r=eyJrIjoiM2NhMDcxZWYtMTU0NC00MGE4LWIwZWYtZmQwNDY0Z
 ### 2. Limpieza y Transformación (Capa Silver)
 * Identificación de 5 valores nulos en el campo 'EstCivil' en la tabla 'Clientes'. Se procedió a eliminar estos registros. 
 * Desarrollo de scripts en **PySpark** para eliminar 3 campos (`Mes`, `Dia`, `Marca`).
-**Tratamiento de Anomalías:**
+* **Tratamiento de Anomalías:**
 * Identificación de valor negativos en el campo 'VTABS'  
 * Estandarización y renombrado de categorías de productos (`SKU`, `Producto`, `Descripción`, `Tipo`).
 * Conversión de valores negativos a positivos en métricas financieras (`VTABS`, `Margen`, `VTAQ`).
