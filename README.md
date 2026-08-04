@@ -2,7 +2,7 @@
 
 Proyecto End-to-End de ingeniería y análisis de datos enfocado en el sector retail. La solución procesa datos transaccionales masivos mediante una arquitectura Medallion en Databricks y los expone a través de un modelo interactivo en Power BI para la toma de decisiones comerciales.
 
-https://app.powerbi.com/view?r=eyJrIjoiM2NhMDcxZWYtMTU0NC00MGE4LWIwZWYtZmQwNDY0Zjk2ODZiIiwidCI6IjBlMGNiMDYwLTA5YWQtNDlmNS1hMDA1LTY4YjliNDlhYTFmNiIsImMiOjR9
+https://app.powerbi.com/view?r=eyJrIjoiOTU4ZjdlMDYtMDdlYi00NTQ0LTg2MTQtMDU4NTg5N2FhZjE1IiwidCI6IjBlMGNiMDYwLTA5YWQtNDlmNS1hMDA1LTY4YjliNDlhYTFmNiIsImMiOjR9
 
 ---
 
