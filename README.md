@@ -36,9 +36,10 @@ https://app.powerbi.com/view?r=eyJrIjoiOTU4ZjdlMDYtMDdlYi00NTQ0LTg2MTQtMDU4NTg5N
 * **Cálculo de Métricas y Negocio:** Implementación de fórmulas y medidas (como Venta Neta aislando el IGV, Margen %, Ticket Promedio y segmentación RFM) directamente en el modelo semántico del reporte.
 * **Diseño del Dashboard:** Creación de un informe ejecutivo interactivo estructurado para facilitar la lectura de los KPIs principales:
   * **Tarjetas de Resumen:** Visualización de métricas globales clave: Ticket Promedio, Total de Transacciones, % de Margen, Ventas Netas totales e IGV.
-  * **Gráfico de Tendencia:** Análisis de la evolución trimestral del número de transacciones.
-  * **Análisis de Rentabilidad:** Comparación de Ventas Netas y Margen % por cada categoría de producto (`Descripción`).
-  * **Segmentación de Clientes:** Distribución de la base de clientes por sexo y filtros laterales para analizar el comportamiento según el Segmento RFM (Top, Leal, Habitual, Ocasional).
+  * **Ventas Netas y Margen % por Descripción:** Es un gráfico combinado (columnas y líneas) que muestra el rendimiento de cada categoría o descripción de producto.
+  * **Transacciones por Trimestre:** Es un gráfico de área que visualiza el volumen total de transacciones (en miles) agrupadas por cada trimestre del año (Trim. 1 al Trim. 4).  
+  * **Diferencia Venta Mensual por Mes:** Es un gráfico de barras de variación (mes actual vs. mes anterior) que utiliza colores para diferenciar el crecimiento (barras verdes positivas) de la contracción (barras rojas        negativas). 
+  * **Ticket Promedio por Segmento:** Es una matriz de **Diagramas de Caja y Bigotes (Box Plots)** que segmenta el valor del ticket promedio cruzando los años (**2016 vs 2017**) y los **Segmentos RFM** (*Habitual, Leal,       Ocasional, Top*).
 * **Publicación y Difusión:** Despliegue del reporte final en Power BI Service con la opción de acceso público mediante enlace web interactivo.
 ---
 
