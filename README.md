@@ -43,7 +43,7 @@ https://app.powerbi.com/view?r=eyJrIjoiM2NhMDcxZWYtMTU0NC00MGE4LWIwZWYtZmQwNDY0Z
 ---
 
 ## 📊 Vista Previa del Dashboard
-
+![Dashboard Retail Analytics](retail.png)
 
 
 
